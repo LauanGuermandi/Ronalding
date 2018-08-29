@@ -1,0 +1,20 @@
+{
+  "name": "Ronalding",
+  "short_name": "Ronalding",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "description": "Alter images for randon RÔLES from Ronaldinho - By Lauan Guermandi",
+  "author": "Lauan Guermandi",
+  "icons": {
+    "128": "128.png"
+  },
+  "permissions": [
+    "http://github.com/*",
+    "https://github.com/*",
+    "storage"
+  ],
+  "content_scripts": [{
+    "matches": ["*://*/*"],
+    "js": [ "index.js" ]
+  }]
+}
